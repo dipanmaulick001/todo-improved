@@ -10,7 +10,7 @@ const mongoose = require("mongoose");
 
 async function startServer() {
     try {
-        await mongoose.connect("mongodb+srv://dip:123456DM@cluster0.bnafl2c.mongodb.net/todo-app-database");
+        await mongoose.connect("");
         console.log("Connected to MongoDB");
 
         app.listen(3003,"0.0.0.0", () => {
